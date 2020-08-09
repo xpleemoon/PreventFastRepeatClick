@@ -1,8 +1,8 @@
 apply plugin: "maven-publish"
 apply plugin: 'com.jfrog.bintray'
 
-def siteUrl = 'https://github.com/xpleemoon/gradle-plugin-training/tree/master/PreventFastRepeatClick'
-def gitUrl = 'https://github.com/xpleemoon/gradle-plugin-training.git'
+def siteUrl = 'https://github.com/xpleemoon/PreventFastRepeatClick'
+def gitUrl = 'https://github.com/xpleemoon/PreventFastRepeatClick.git'
 
 task sourceJar(type: Jar) {
     from sourceSets.main.allSource
